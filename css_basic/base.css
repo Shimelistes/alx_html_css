@@ -1,14 +1,32 @@
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #fdfdfd;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-main{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #005fa3;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+}
+
+
+article {
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 20px;
 }
