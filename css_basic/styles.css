@@ -1,6 +1,8 @@
 body.works_on_smartphone{
   display: flex;
   flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
 
 }
 
@@ -14,10 +16,19 @@ main{
 article{
   flex: 2;
   overflow-y: auto;
+  border: 2px solid grey;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color:yellowgreen ;
 
 }
 aside{
   flex: 1;
   overflow-y: auto;
+}
+
+li:hover {
+  color: aquamarine;
+  text-decoration: underline;
 }
 
